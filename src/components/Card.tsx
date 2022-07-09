@@ -10,7 +10,6 @@ interface CardProps {
   height?: string;
   variant: CardVariant;
   children: any;
-  onClick: (num: number) => void;
 }
 
 const Card: FC<CardProps> = ({ width, height, variant, children }) => {
